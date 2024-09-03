@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.newsletter {
+  background-color: #DC3545;
+  height: 400px;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27pt;
+  }
+
+.cabin-regular {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  }
+
+.cabin-bold {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.cabin-nav {
+    font-family: "Cabin", sans-serif;
+    font-size: 32pt;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.img_principal{
+    width: 450px;
+    height: 384px;
+  }
+
+.titulo{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 700;
+      font-size: 2.8em;
+  }
+
+.news-p {
+  font-size: 1.8rem;
+}
+
+.rojo {
+  color: #DC3545
+}
+
+.rico-news {
+  font-size: 2rem;
+}
+
+p.uno {
+  font-size: 1.5rem;
+}
+
+hr.uno {
+  border: none;
+  background-color: #000;
+  color: #000;
+  opacity: 1;
+  height: 2px;
+}
+
+@media (max-width: 576px) {
+  .header-section {
+      text-align: center;
+  }
+
+  .header-section h1 {
+      font-size: 2.5rem;
+  }
+}
